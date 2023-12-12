@@ -1,0 +1,91 @@
+body {
+    height: 100vh;
+    background: url("background.svg") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=text], input[type=password] {
+    padding: 5px 10px;
+    color: white;
+    border: 1px solid white;
+    background-color: gray;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+}
+input[type=submit] {
+    width: 220px;
+    height: 50px;
+    padding: 0 ;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.login_check {
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: red;
+    visibility: hidden;;
+    
+} 
+.content {
+    width: 600px;
+    height: 600px;
+    background-color: #ffffff;
+    background-color: rgba( 255, 255, 255, 0.5 );
+    margin-top: 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+p {
+    margin: 0;
+    color: white;
+    font-size: 15px;
+}
+.title {
+    width: 300px;
+    padding: 0 0 10px 0;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    border-bottom: 1px solid white;
+}
+
+#sub_content {
+    width: 400px;
+    height: 200px;
+    padding: 10px 16px;
+    display: none;
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+#shadow { 
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.82);
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+#sub_content {
+    background-color: white;
+}
+
+#close {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}

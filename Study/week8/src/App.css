@@ -1,0 +1,11 @@
+div {
+  padding: 50px 100px 50px 100px;
+  text-align: center;
+}
+input{
+  width: 150px;
+  height: 40px;
+  border: solid black;
+  border-radius: 15px 15px 15px 15px;
+  padding : 3px 15px 3px 15px;
+}

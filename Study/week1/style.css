@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    background: url("background.svg") no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 90vh;
+    height: 60vh;
+    border-radius: 20px;
+    background-color: grey;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid white;
+}
+input {
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+input::placeholder {
+    color: white;
+}
+.login {
+    width: 100%;
+    background: transparent;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.submit {
+    width: 90%;
+    height: 50px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+li:last-child{
+    border-right: none;
+}
+li a {
+    color: black;
+    text-align: center;
+    text-decoration-line: none;
+    padding: 30px;
+}
